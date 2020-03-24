@@ -1,0 +1,13 @@
+body{
+    font-family: monospace, sans-serif;
+    text-align: center;
+    font-size: 14pt;
+}
+body a{
+    text-decoration: none;
+}
+
+body a:hover{
+    color: rgb(0, 102, 204);
+    text-shadow: 1px 1px 1px black;
+}
