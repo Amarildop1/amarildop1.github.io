@@ -11,3 +11,8 @@ body a:hover{
     color: rgb(0, 102, 204);
     text-shadow: 1px 1px 1px black;
 }
+
+body footer{
+	margin-top: 60vh;
+	font-size: 10pt;
+}
