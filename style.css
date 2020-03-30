@@ -5,20 +5,25 @@ body{
     text-align: center;
     font-size: 16pt;
 }
+
 body a{
     text-decoration: none;
 }
-
 body a:hover{
     color: rgb(0, 102, 204);
     text-shadow: 1px 1px 1px black;
 }
 
-body footer p{
-	margin-top: 45vh;
-    font-size: 12pt;    
+body .social p{
+    display: inline;
+    margin: 2%;
+    font-size: 12pt;
 }
 
+body footer p{
+	margin-top: 40vh;
+    font-size: 12pt;    
+}
 body footer img{
     width: 20px; 
     vertical-align: middle;
