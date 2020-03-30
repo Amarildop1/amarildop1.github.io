@@ -3,7 +3,7 @@
 body{
     font-family: 'Baloo 2', cursive, monospace;
     text-align: center;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 body a{
     text-decoration: none;
@@ -16,5 +16,10 @@ body a:hover{
 
 body footer p{
 	margin-top: 45vh;
-	font-size: 10pt;
+    font-size: 12pt;    
+}
+
+body footer img{
+    width: 20px; 
+    vertical-align: middle;
 }
