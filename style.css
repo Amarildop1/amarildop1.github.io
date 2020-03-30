@@ -1,12 +1,7 @@
-/* @font-face{
-	font-family: 'Baloo2';
-	src: url('./fonts/Baloo2-SemiBold.ttf');
-} */
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:600&display=swap');
 
 body{
-    /*font-family: monospace, 'Baloo2', cursive;*/
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2', cursive, monospace;
     text-align: center;
     font-size: 14pt;
 }
@@ -20,6 +15,6 @@ body a:hover{
 }
 
 body footer p{
-	margin-top: 50vh;
+	margin-top: 45vh;
 	font-size: 10pt;
 }
