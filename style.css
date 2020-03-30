@@ -1,5 +1,10 @@
+@font-face{
+	font-family: 'Baloo';
+	src: url('./fonts/Baloo2-SemiBold.ttf');
+}
+
 body{
-    font-family: monospace, sans-serif;
+    font-family: monospace, 'Baloo', sans-serif;
     text-align: center;
     font-size: 14pt;
 }
