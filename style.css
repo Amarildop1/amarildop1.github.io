@@ -1,31 +1,224 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+2:600&display=swap');
 
+/*
+*   FAZER LIMPEZA!!!
+*
+*/
+
+body #principal{
+    display: grid;
+    grid-template-columns: 1fr 20vw;
+    grid-template-rows: 15vh 60vh 15vh;
+    grid-template-areas:    "header header"
+                            "conteudo conteudo"
+                            "rodape rodape";
+    gap: .5rem;
+}
+.cabecalho{
+    grid-area: header;
+    align-self: center;
+    background-color: rgb(0, 0, 0);
+    /* background-color: rgba(41, 39, 39, 0.925); */
+    color: rgb(179, 169, 169);
+}
+.conteudo{
+    grid-area: conteudo;
+    background-color: rgb(179, 169, 169);
+    color: rgb(53, 50, 50);
+    
+}
+.rodape{
+    grid-area: rodape;
+    background-color: rgb(0, 0, 0);
+    /* background-color: rgba(41, 39, 39, 0.925); */
+    color: rgb(179, 169, 169);
+}
+
+
+/* Mobile First - Breakpoint: Default */
+/* @media screen and (min-width: 300px) */
 body{
+    /*BACKGROUND IMAGE*/
     font-family: 'Baloo 2', cursive, monospace;
     text-align: center;
-    font-size: 16pt;
-    line-height: 25pt;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+body h1{
+    font-size: 1.3rem;
+}
+body h2{
+    font-size: 1.5rem;
+}
+body p{
+    font-size: 1rem;
 }
 
 body a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 body a:hover{
-    color: rgb(0, 102, 204);
+    color: rgb(4, 29, 172);
     text-shadow: 1px 1px 1px black;
 }
 
-body .social p{
-    display: inline;
-    margin: 2%;
-    font-size: 12pt;
+body header nav#menu{
+    display: flex;
+    padding: .2rem;
+    justify-content: flex-end;  
+}
+body header nav#menu a{
+    margin: .5rem;
+    font-size: 1.1rem;
 }
 
-body footer p{
-	margin-top: 40vh;
-    font-size: 12pt;    
+body .conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body .conteudo .content{
+    padding: .5rem;
+    margin: 1rem;
+}
+
+body .conteudo .social{
+    display: flex;
+    justify-content: center;
+}
+body .conteudo .social a{
+    padding: 1rem;
+    margin: 1rem;
+}
+body .conteudo .social p{
+    font-size: .9rem;
+}
+body .conteudo .social p i{
+    font-size: 1.2rem;
+}
+
+body footer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 1rem;    
 }
 body footer img{
     width: 20px; 
     vertical-align: middle;
 }
+body footer p{
+    font-size: .9rem;
+}
+
+.rodape{
+    margin-top: 5rem;
+}
+
+/* FIM do breakpoint @media screen and (min-width: 300px) */
+
+
+/* 2º breakpoint */
+@media screen and (min-width: 400px){
+    body h1{
+        font-size: 1.4rem;
+    }
+    body h2{
+        font-size: 1.6rem;
+    }
+    body p{
+        font-size: 1.1rem;
+    }
+    
+    body header nav#menu a{
+        margin: .4rem;
+        font-size: 1.2rem;
+    }
+
+    body .conteudo .social a i{
+        font-size: 1.8rem;
+    }
+
+    body footer img{
+        width: 20px; 
+        vertical-align: middle;
+    }
+    body footer p{
+        font-size: 1rem;
+    }
+} 
+/* FIM do 2º breakpoint */
+
+
+/* 3º breakpoint */
+@media screen and (min-width: 580px){
+   body h1{
+        font-size: 1.5rem;
+    }
+    body h2{
+        font-size: 1.7rem;
+    }
+    body p{
+        font-size: 1.2rem;
+    }
+    
+    body header nav#menu a{
+        margin: .5rem;
+        font-size: 1.3rem;
+    }
+
+    body .conteudo .social a i{
+        font-size: 1.9rem;
+    }
+} 
+/* FIM do 3º breakpoint */
+
+
+/* 4º breakpoint */
+@media screen and (min-width: 768px){
+  body h1{
+        font-size: 1.7rem;
+    }
+    body h2{
+        font-size: 1.9rem;
+    }
+    body p{
+        font-size: 1.4rem;
+    }
+    
+    body header nav#menu a{
+        margin: .7rem;
+        font-size: 1.5rem;
+    }
+
+    body .conteudo .social a i{
+        font-size: 2rem;
+    }
+ } 
+/* FIM do 4º breakpoint */
+
+
+/* 5º breakpoint */
+@media screen and (min-width: 1024px){
+  body h1{
+        font-size: 1.9rem;
+    }
+    body h2{
+        font-size: 2.1rem;
+    }
+    body p{
+        font-size: 1.6rem;
+    }
+    body header nav#menu a{
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+    body .conteudo .social a i{
+        font-size: 2rem;
+    }
+} 
+/* FIM do 5º breakpoint */
+
