@@ -23,12 +23,11 @@ body #principal{
 .conteudo{
     grid-area: conteudo;
     background-color: rgb(179, 169, 169);
-    color: rgb(53, 50, 50);
+    color: rgb(43, 40, 40);
     
 }
 .rodape{
     grid-area: rodape;
-    
     background-color: rgba(41, 39, 39, 0.925);
     color: rgb(179, 169, 169);
 }
