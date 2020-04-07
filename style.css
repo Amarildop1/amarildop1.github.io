@@ -36,79 +36,79 @@ body #principal{
 /* Mobile First - Breakpoint: Default */
 /* @media screen and (min-width: 300px) */
 body{
-    /*BACKGROUND IMAGE*/
+    /* BACKGROUND IMAGE AQUI */
     font-family: 'Baloo 2', cursive, monospace;
     text-align: center;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-body h1{
+h1{
     font-size: 1.3rem;
 }
-body h2{
+h2{
     font-size: 1.5rem;
 }
-body p{
+p{
     font-size: 1rem;
 }
 
-body a{
+a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-body a:hover{
+a:hover{
     color: rgb(4, 29, 172);
     text-shadow: 1px 1px 1px black;
 }
 
-body header nav#menu{
+header nav#menu{
     display: flex;
     padding: .2rem;
     justify-content: flex-end;  
 }
-body header nav#menu a{
+header nav#menu a{
     margin: .5rem;
     font-size: 1.1rem;
 }
 
-body .conteudo{
+.conteudo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-body .conteudo .content{
+.conteudo .content{
     padding: .5rem;
     margin: 1rem;
 }
 
-body .conteudo .social{
+.conteudo .social{
     display: flex;
     justify-content: center;
 }
-body .conteudo .social a{
+.conteudo .social a{
     padding: 1rem;
     margin: 1rem;
 }
-body .conteudo .social p{
+.conteudo .social p{
     font-size: .9rem;
 }
-body .conteudo .social p i{
+.conteudo .social p i{
     font-size: 1.2rem;
 }
 
-body footer{
+footer{
     display: flex;
     justify-content: center;
     align-self: center;
     font-size: 1rem;    
 }
-body footer img{
+footer img{
     width: 20px; 
     vertical-align: middle;
 }
-body footer p{
+footer p{
     font-size: .9rem;
 }
 
@@ -121,30 +121,30 @@ body footer p{
 
 /* 2º breakpoint */
 @media screen and (min-width: 400px){
-    body h1{
+    h1{
         font-size: 1.4rem;
     }
-    body h2{
+    h2{
         font-size: 1.6rem;
     }
-    body p{
+    p{
         font-size: 1.1rem;
     }
     
-    body header nav#menu a{
+    header nav#menu a{
         margin: .4rem;
         font-size: 1.2rem;
     }
 
-    body .conteudo .social a i{
+    .conteudo .social a i{
         font-size: 1.8rem;
     }
 
-    body footer img{
+    footer img{
         width: 20px; 
         vertical-align: middle;
     }
-    body footer p{
+    footer p{
         font-size: 1rem;
     }
 } 
@@ -153,22 +153,22 @@ body footer p{
 
 /* 3º breakpoint */
 @media screen and (min-width: 580px){
-   body h1{
+    h1{
         font-size: 1.5rem;
     }
-    body h2{
+    h2{
         font-size: 1.7rem;
     }
-    body p{
+    p{
         font-size: 1.2rem;
     }
     
-    body header nav#menu a{
+    header nav#menu a{
         margin: .5rem;
         font-size: 1.3rem;
     }
 
-    body .conteudo .social a i{
+    .conteudo .social a i{
         font-size: 1.9rem;
     }
 } 
@@ -177,22 +177,22 @@ body footer p{
 
 /* 4º breakpoint */
 @media screen and (min-width: 768px){
-  body h1{
+    h1{
         font-size: 1.7rem;
     }
-    body h2{
+    h2{
         font-size: 1.9rem;
     }
-    body p{
+    p{
         font-size: 1.4rem;
     }
     
-    body header nav#menu a{
+    header nav#menu a{
         margin: .7rem;
         font-size: 1.5rem;
     }
 
-    body .conteudo .social a i{
+    .conteudo .social a i{
         font-size: 2rem;
     }
  } 
@@ -201,20 +201,20 @@ body footer p{
 
 /* 5º breakpoint */
 @media screen and (min-width: 1024px){
-  body h1{
+    h1{
         font-size: 1.9rem;
     }
-    body h2{
+    h2{
         font-size: 2.1rem;
     }
-    body p{
+    p{
         font-size: 1.6rem;
     }
-    body header nav#menu a{
+    header nav#menu a{
         margin: 1rem;
         font-size: 1.5rem;
     }
-    body .conteudo .social a i{
+    .conteudo .social a i{
         font-size: 2rem;
     }
 } 
