@@ -98,6 +98,19 @@ header nav#menu a{
     font-size: 1.2rem;
 }
 
+.conteudo .social p i.fa-github{
+    color: black;
+}
+
+.conteudo .social p i.fa-linkedin{
+    color: rgb(0, 115, 176);
+}
+
+
+.conteudo .social img{
+    width: 1.9em;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -115,7 +128,6 @@ footer p{
 .rodape{
     margin-top: 7rem;
 }
-
 /* FIM do breakpoint @media screen and (min-width: 300px) */
 
 
