@@ -56,7 +56,7 @@ a{
 }
 a:hover{
     color: rgb(4, 29, 172);
-    text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 10px white;
 }
 
 header nav#menu{
@@ -103,6 +103,11 @@ header nav#menu a{
 }
 .conteudo .social img{
     width: 1.9em;
+}
+
+.conteudo .social img:hover, .conteudo .social i:hover{
+    transform: scale(1.5);
+    transition: 0.8s;
 }
 
 footer{
