@@ -56,7 +56,8 @@ a{
 }
 a:hover{
     color: rgb(4, 29, 172);
-	text-shadow: 1px 1px 10px white;
+    /*text-shadow: 1px 1px 1px black;*/
+    text-shadow: 1px 1px 10px white;
 }
 
 header nav#menu{
@@ -67,6 +68,9 @@ header nav#menu{
 header nav#menu a{
     margin: .5rem;
     font-size: 1.1rem;
+}
+header nav#menu a#idioma{
+    font-size: 1rem;
 }
 
 .conteudo{
@@ -86,13 +90,13 @@ header nav#menu a{
 }
 .conteudo .social a{
     padding: 1rem;
-    margin: 1rem;
+    margin: .7rem;
 }
 .conteudo .social p{
     font-size: .9rem;
 }
 .conteudo .social p i{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 .conteudo .social p i.fa-github{
@@ -109,6 +113,7 @@ header nav#menu a{
     transform: scale(1.5);
     transition: 0.8s;
 }
+
 
 footer{
     display: flex;
@@ -202,6 +207,10 @@ footer p{
         margin: .7rem;
         font-size: 1.5rem;
     }
+    header nav#menu a#idioma{
+    margin: .7rem;
+    font-size: 1.1rem;
+}
 
     .conteudo .social a i{
         font-size: 2rem;
@@ -225,6 +234,11 @@ footer p{
         margin: 1rem;
         font-size: 1.5rem;
     }
+    header nav#menu a#idioma{
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
     .conteudo .social a i{
         font-size: 2rem;
     }
